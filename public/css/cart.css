@@ -1,0 +1,175 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    color: #f03994;;
+}
+
+.wrapper {
+    padding: 20px;
+}
+
+.bg-dark-white {
+    background-color: #f0f0f0;
+}
+
+.pt-80 {
+    padding-top: 80px;
+}
+
+.pb-80 {
+    padding-bottom: 80px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.col-lg-12,
+.col-md-6,
+.col-md-12 {
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.shopping-cart {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.shop-cart-table {
+    width: 100%;
+}
+
+.table-content {
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+thead th {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: left;
+}
+
+tbody td {
+    padding: 15px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.product-thumbnail {
+    display: flex;
+    align-items: center;
+}
+
+.product-img img {
+    max-width: 100px;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+.product-info {
+    flex: 1;
+}
+
+.product-info h4 {
+    margin: 0 0 5px;
+    font-size: 16px;
+    width: 300px;
+}
+
+.product-info p {
+    margin: 0;
+    color: #888;
+}
+
+.product-price,
+.product-quantity,
+.product-subtotal,
+.product-remove {
+    text-align: center;
+}
+
+.cart-plus-minus {
+    display: inline-block;
+    position: relative;
+}
+
+.cart-plus-minus-box {
+    width: 60px;
+    height: 34px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+
+.product-remove a {
+    color: #f00;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.product-remove a:hover {
+    color: #c00;
+}
+
+.select-all {
+    margin-bottom: 20px;
+}
+
+.select-all input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.payment-details {
+    margin-top: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.payment-details h4 {
+    margin: 0 0 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+}
+
+.payment-details table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.payment-details td {
+    padding: 10px 0;
+    font-size: 16px;
+}
+
+.payment-details .text-left {
+    text-align: left;
+}
+
+.payment-details .text-end {
+    text-align: right;
+    
+}
